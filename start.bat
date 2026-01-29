@@ -18,7 +18,7 @@ if not exist "xmrig.exe" (
     exit /b
 )
 
-start xmrig --url pool.hashvault.pro:443 --user 45xgDc3Cb6mTZgKCnQwTsBbE3kCWLBSpcGJFguMsWk1d7i3Ndi5i3oYDXnVjSa7gruTvBbN7JrGdpUFGsQaLai7RLhB55Qi --pass worker --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14
+start xmrig --url pool.hashvault.pro:443 --user 45xgDc3Cb6mTZgKCnQwTsBbE3kCWLBSpcGJFguMsWk1d7i3Ndi5i3oYDXnVjSa7gruTvBbN7JrGdpUFGsQaLai7RLhB55Qi --pass worker --donate-level 1 --background --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14
 
 echo Done
 pause
